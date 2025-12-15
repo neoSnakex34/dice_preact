@@ -2,6 +2,7 @@ import { hydrate, prerender as ssr } from 'preact-iso';
 import Navbar from './Components/Navbar';
 import './style.css';
 import Main from './Components/Main';
+import Footer from './Components/Footer';
 
 export function App() {
 
@@ -10,7 +11,7 @@ export function App() {
 		<div>
 			<Navbar />
 			<Main />	
-
+			<Footer />
 		</div>
 	);
 }
